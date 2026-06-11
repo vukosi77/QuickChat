@@ -232,11 +232,11 @@ public class Message {
     // ---------------------------------------------------------------
     // Getters
     // ---------------------------------------------------------------
-    public String getMessageID()    { return messageID; }// gives meesage 
+    public String getMessageID()    { return messageID; }// gives meesage
     public String getMessageHash()  { return messageHash; }
     public String getRecipientCell(){ return recipientCell; }
     public String getMessageText()  { return messageText; }
-    public int    getMessageNumber(){ return messageNumber; }
+    public int    getMessageNumber(){ return messageNumber; }// gives message number
 
     // Static array getters (for unit tests)
     public static ArrayList<String>  getSentMessages()        { return sentMessages; }
