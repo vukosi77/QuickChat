@@ -235,7 +235,7 @@ public class Message {
     public String getMessageID()    { return messageID; }
     public String getMessageHash()  { return messageHash; }
     public String getRecipientCell(){ return recipientCell; }
-    public String getMessageText()  { return messageText; }
+    public String getMessageText()  { return messageText; }//give you message texr
     public int    getMessageNumber(){ return messageNumber; }
 
     // Static array getters (for unit tests)
