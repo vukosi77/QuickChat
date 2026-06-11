@@ -232,7 +232,7 @@ public class Message {
     // ---------------------------------------------------------------
     // Getters
     // ---------------------------------------------------------------
-    public String getMessageID()    { return messageID; }
+    public String getMessageID()    { return messageID; }// gives meesage 
     public String getMessageHash()  { return messageHash; }
     public String getRecipientCell(){ return recipientCell; }
     public String getMessageText()  { return messageText; }
